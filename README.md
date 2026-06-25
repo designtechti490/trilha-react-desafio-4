@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Challenge #04 - Login
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Preview](github/preview.gif)
 
-## Available Scripts
+A modern and responsive **login form** project, developed with React, TypeScript, and real-time validation using React Hook Form and Yup.
 
-In the project directory, you can run:
+## 📋 Project Description
 
-### `npm start`
+This project implements a login page with robust form validation. The user can enter email and password, with automatic validations that block the submit button until all fields are valid.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✨ Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- ✅ **Real-Time Validation** - Validates email and password as the user types.
+- ✅ **Custom Error Messages** - Clear feedback on validation errors.
+- ✅ **Smart Button** - Automatically blocked when errors occur
+- ✅ **Reusable Components** - Customizable and typed Button and Input components
+- ✅ **TypeScript** - Type safety throughout the project
+- ✅ **Styled Components** - Modular and dynamic styling
+- ✅ **Responsive** - Adaptable design for different screen sizes
 
-### `npm test`
+## 🔐 Validations Implemented
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Email**: Email format validation and required field
+- **Password**: Minimum of 6 characters and required field
+- **Button**: Disabled while there are validation errors
 
-### `npm run build`
+## 🛠️ Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![ReactJS](https://img.shields.io/badge/-ReactJS-121011?style=for-the-badge&logo=react)&nbsp;
+![Typescript](https://img.shields.io/badge/-Typescript-121011?style=for-the-badge&logo=typescript)&nbsp;
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)&nbsp;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 How to Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![How to Clone, Install dependencies and Run](github/how-to-setup.png)
 
-### `npm run eject`
+## 👤 Author
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<table width="100%">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<tr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<td align="center">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<a href="https://github.com/designtechti490">
 
-## Learn More
+<img src="https://github.com/designtechti490.png" width="100px;" alt=""/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<sub>
+
+<b>Marcelo Junior</b>
+          <i>Front End Developer</i>
+
+</sub>
+
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+<p align="center"> Developed with 💜 during the React trail at Digital Innovation One. </p>
